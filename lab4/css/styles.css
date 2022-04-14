@@ -44,10 +44,10 @@ nav li a {
     background-color: #7991D9 ;
     color: rgb(38, 61, 4);
     height: 40px;
-    line-height: center;
+    line-height: 2px;
     text-align: center;
     text-decoration: none;
-    font-size: 1,2em;
+    font-size: 1.2em;
     margin: 10px 0;
     border-radius:10px;
 
@@ -83,7 +83,7 @@ section img, aside img {
     color: #171EA6;
     height: 40px;
     width: 205px;
-    line-height: center;
+    line-height: 2px;
     text-align: center;
     text-decoration: none;
     font-size: 1em;
@@ -210,7 +210,7 @@ table{
 }
 
     table,tr,td{
-        border: 4px solid greens;
+        border: 4px solid lightblue;
         padding: 10px;
         margin: 10px;
     }
