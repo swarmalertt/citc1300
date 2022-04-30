@@ -1,0 +1,162 @@
+/*Global Styles*/
+body{
+  background-image: 'img/clouds.jpg';
+}
+
+img {
+  border-radius: 10px 10px 10px 10px;
+  max-width: 50%;
+  margin: 0 auto;
+}
+
+
+/* The side navigation menu */
+
+.sidebar {
+    margin: 0px;
+    padding: 0px;
+    width: 200px;
+    background-color: #f1f1f1;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  /* Sidebar links */
+  .sidebar a {
+    display: block;
+    color: black;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+  /* Active/current link */
+  .sidebar a.active {
+    background-color: #8C72A6;
+    color: white;
+  }
+  
+  /* Links on mouse-over */
+  .sidebar a:hover:not(.active) {
+    background-color: #b09cc4;
+    color: white;
+  }
+  
+  /* Page content. The value of the margin-left property should match the value of the sidebar's width property */
+  div.content {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }
+  #container{
+    margin-left:200px
+}
+
+  .header {
+    background-size: cover;
+    padding: 20px;
+    text-align: center;
+    background: #8C72A6;
+    color: white;
+    font-size: 30px;
+  }
+
+  p {
+    font-size: 16px;
+    font-size: 2vw;
+}
+
+  h2, h3 {
+    color:white;
+    text-shadow: 2px 2px 2px black; 
+    font-size: 1.5em;
+    text-align: center;
+}
+  #upper_flex {
+    margin: 20px;
+    color: white;
+    display: flex auto;
+  }
+
+  #other_upper_flex {
+    margin: 20px;
+    color: white;
+    display: flex;
+  }
+
+  #lower_flex {
+    margin: 20px;
+    color: white;
+    display: flex auto;
+  }
+
+  .imagesize{
+    width: 350px;
+    height: 350px;
+  }
+
+  .single_col {
+    width: 83%;
+}
+  nav, section, aside, .col {
+    background-color: #5a89a4;
+    color: white;
+    padding: 20px;
+    margin: 10px;
+    margin-bottom: 7%;
+    border: 4px solid #59527a;
+    border-radius: 10px;
+  }
+
+  #side{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .sidetext {
+    padding-left: 20px;
+  }
+
+  footer{
+    margin: 10px;
+    border: 4px solid #59527a;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    background: #8C72A6;
+    color: white;
+    font-size: 20px;
+    position: fixed;
+    left: 210px;
+    right: 0px;
+    bottom: 0;
+    width: auto;
+  }
+  
+  /* On screens that are less than 700px wide, make the sidebar into a topbar */
+  @media screen and (max-width: 700px) {
+    
+    .sidebar {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    .sidebar a {float: left;}
+    div.content {margin-left: 0;}
+
+    #container{
+      margin-left:0px
+  }
+  }
+  
+  /* On screens that are less than 400px, display the bar vertically, instead of horizontally */
+  @media screen and (max-width: 400px) {
+    .sidebar a {
+      text-align: center;
+      float: none;
+    }
+    #container{
+      margin-left:0px
+  }
+  }
