@@ -1,8 +1,4 @@
 /*Global Styles*/
-body{
-  background-image: 'img/clouds.jpg';
-}
-
 img {
   border-radius: 10px 10px 10px 10px;
   max-width: 50%;
@@ -75,7 +71,7 @@ img {
   #upper_flex {
     margin: 20px;
     color: white;
-    display: flex auto;
+    display: flex;
   }
 
   #other_upper_flex {
@@ -87,7 +83,7 @@ img {
   #lower_flex {
     margin: 20px;
     color: white;
-    display: flex auto;
+    display: flex;
   }
 
   .imagesize{
